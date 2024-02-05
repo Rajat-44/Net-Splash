@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#512D8A</color>
+    <color name="colorAccent">#B388FF</color>
+    <color name="darkGrey">#6c6c6c</color>
+    <color name="bottomSheetBack">#388e3c</color>
+
+    //pop up
+    <color name="PopUpDark">#2f333f</color>
+    <color name="blue">#49acd5</color>
+    <color name="orange">#eaad43</color>
+    <color name="green">#45bc62</color>
+    <color name="yel">#ffc107</color>
+    <color name="darkyel">#ff5000</color>
+    <color name="backgroundroot">#fcfcfc</color>
+    <color name="lightgrey">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="lightyel">#ffb300</color>
+    <color name="greenn">#00bfa5</color>
+    <color name="pink">#ff4081</color>
+
+
+
+
+
+
+    <color name="screen1">#4D21A4</color>
+    <color name="screen2">#4B3630</color>
+    <color name="screen3">#3A40A9</color>
+    <color name="screen4">#1D1B1B</color>
+    <color name="screen5">#25146F</color>
+
+    <color name="dotDarkScreen1">#2E0879</color>
+    <color name="dotDarkScreen2">#342324</color>
+    <color name="dotDarkScreen3">#0D47A1</color>
+    <color name="dotDarkScreen4">#03A9F4</color>
+    <color name="dotDarkScreen5">#33691E</color>
+
+    <color name="dotLightScreen1">#6D45BC</color>
+    <color name="dotLightScreen2">#574042</color>
+    <color name="dotLightScreen3">#1976D2</color>
+    <color name="dotLightScreen4">#4FC3F7</color>
+    <color name="dotLightScreen5">#388E3C</color>
+
+
+    <array name="dotActive">
+
+        <item>@color/dotLightScreen1</item>
+        <item>@color/dotLightScreen2</item>
+        <item>@color/dotLightScreen3</item>
+        <item>@color/dotLightScreen4</item>
+        <item>@color/dotLightScreen5</item>
+
+    </array>
+
+    <array name="dotInactive">
+        <item>@color/dotDarkScreen1</item>
+        <item>@color/dotDarkScreen2</item>
+        <item>@color/dotDarkScreen3</item>
+        <item>@color/dotDarkScreen4</item>
+        <item>@color/dotDarkScreen5</item>
+    </array>
+</resources>

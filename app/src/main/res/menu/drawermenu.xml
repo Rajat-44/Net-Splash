@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/browsermain"
+      android:title="Browser"
+      android:icon="@mipmap/browserearthonly"/>
+  <item
+      android:id="@+id/home"
+      android:icon="@mipmap/bhome"
+      android:title="Home" />
+
+  <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/help"
+        />
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@mipmap/bset"/>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@mipmap/binfo"/>
+
+
+
+
+</menu>

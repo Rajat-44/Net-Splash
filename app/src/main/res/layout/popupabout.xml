@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="530dp"
+    android:background="@color/PopUpDark"
+    android:foreground="@drawable/ripple"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:id="@+id/tvclose"
+        android:onClick="onClickClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="X"
+        android:background="@drawable/circlebackg"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="This App is created by"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@mipmap/photo"
+            android:layout_gravity="center"
+            android:layout_marginTop="23dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Rajat Badaria"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Check out more of his apps-"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:background="@color/blue"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/netsplashwatershade"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sonic"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:background="@color/green"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/netsplashwatershade"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculator"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:background="@color/orange"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/netsplashwatershade"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note Taker"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnok"
+        android:onClick="onClickClose"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
